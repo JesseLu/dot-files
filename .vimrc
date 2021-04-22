@@ -24,6 +24,7 @@ Plugin 'ycm-core/YouCompleteMe'
 Plugin 'google/vim-maktaba'
 Plugin 'google/vim-codefmt'
 Plugin 'google/vim-glaive'
+Plugin 'kdheepak/JuliaFormatter.vim'  " For Julia.
 
 " Tags.
 Plugin 'majutsushi/tagbar'
@@ -41,6 +42,9 @@ Plugin 'easymotion/vim-easymotion'
 " Plugin 'preservim/nerdcommenter'
 Plugin 'tpope/vim-commentary'
 
+" Julia
+Plugin 'JuliaEditorSupport/julia-vim' 
+
 " All Plugins must be added before the following line.
 call vundle#end()            " Required for Vundle.
 filetype plugin indent on    " Required for Vundle.
@@ -57,7 +61,7 @@ set tabstop=2
 " Using tabs.
 nnoremap <C-J> :tabprevious<CR>
 nnoremap <C-K> :tabnext<CR>
-nnoremap <C-H> :tabedit 
+nnoremap <C-H> :tabedit  
 
 " Use the PaperColor theme.
 set t_Co=256
