@@ -61,7 +61,7 @@ set tabstop=2
 " Using tabs.
 nnoremap <C-J> :tabprevious<CR>
 nnoremap <C-K> :tabnext<CR>
-nnoremap <C-H> :tabedit  
+nnoremap <C-H> :tabedit 
 
 " Use the PaperColor theme.
 set t_Co=256
