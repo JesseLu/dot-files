@@ -40,8 +40,8 @@ Plugin 'easymotion/vim-easymotion'
 " Plugin 'preservim/nerdcommenter'
 Plugin 'tpope/vim-commentary'
 
-" Julia
-Plugin 'JuliaEditorSupport/julia-vim' 
+" Julia.
+Plugin 'JuliaEditorSupport/julia-vim'
 
 " All Plugins must be added before the following line.
 call vundle#end()            " Required for Vundle.
@@ -55,6 +55,10 @@ set laststatus=2
 set autochdir
 set shiftwidth=2
 set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+
 
 " Using tabs.
 nnoremap <C-J> :tabprevious<CR>
@@ -73,7 +77,7 @@ let g:airline#extensions#tabline#enabled = 1
 " Configure the Google auto-formatter.
 augroup autoformat_settings
   autocmd FileType c,cpp,cuda AutoFormatBuffer clang-format
-  autocmd FileType python AutoFormatBuffer yapf
+	autocmd FileType python AutoFormatBuffer autopep8
 augroup END
 nnoremap <C-L> :FormatCode<CR>
 
