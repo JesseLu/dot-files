@@ -15,10 +15,8 @@ Plugin 'VundleVim/Vundle.vim'
 " For making things look pretty.
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'edkolev/tmuxline.vim'
-
-" Auto-completion.
-Plugin 'ycm-core/YouCompleteMe'
 
 " Auto-formatting.
 Plugin 'google/vim-maktaba'
