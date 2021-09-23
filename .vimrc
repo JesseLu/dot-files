@@ -43,6 +43,9 @@ Plugin 'tpope/vim-commentary'
 " Julia.
 Plugin 'JuliaEditorSupport/julia-vim'
 
+" Autorefresh.
+Bundle 'djoshea/vim-autoread'
+
 " All Plugins must be added before the following line.
 call vundle#end()            " Required for Vundle.
 filetype plugin indent on    " Required for Vundle.
@@ -67,7 +70,7 @@ nnoremap <C-H> :tabedit
 
 " Use the PaperColor theme.
 set t_Co=256
-set background=dark
+set background=light
 colorscheme PaperColor
 
 " Configure airline.
