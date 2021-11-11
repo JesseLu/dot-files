@@ -44,7 +44,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'JuliaEditorSupport/julia-vim'
 
 " Autorefresh.
-Bundle 'djoshea/vim-autoread'
+" Bundle 'djoshea/vim-autoread'
 
 " All Plugins must be added before the following line.
 call vundle#end()            " Required for Vundle.
