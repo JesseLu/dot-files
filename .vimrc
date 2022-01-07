@@ -70,12 +70,13 @@ nnoremap <C-H> :tabedit
 
 " Use the PaperColor theme.
 set t_Co=256
-set background=light
+set background=dark
 colorscheme PaperColor
 
 " Configure airline.
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='dark'
 
 " Configure the Google auto-formatter.
 augroup autoformat_settings
